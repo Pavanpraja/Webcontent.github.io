@@ -1,0 +1,20 @@
+* {
+    border: none;
+}
+html {
+  font-size: 62.5%; /* (62.5/100) * 16px = 10px */
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+menu,
+ol,
+ul {
+    padding-left: 0;
+}
+menu:not(article menu),
+ol:not(article ol),
+ul:not(article ul) {
+    list-style: none;
+}

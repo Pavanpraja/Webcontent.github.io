@@ -1,0 +1,12 @@
+describe('createUser'. () => {
+  it('should create a new user', async () => {
+    const result = await userService.createUser({
+      age: 17,
+      email: 'mock@email.com',
+      name:'test-user',
+      occupation: 'engineer'
+    });
+
+    expect(result.acknowledged).toBe(true);
+  });
+});

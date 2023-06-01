@@ -1,0 +1,9 @@
+$con = mysqli_connect("localhost",""root,"","search_db) or die('Error in connection');
+
+if(isset($_POST['search']))
+{
+    $str = $_POST['search'];
+    $str = preg_replce("#[^0-9a-z]#i","",$str);
+    $query = "select " from users where username LIKE '%$str%'";
+
+}

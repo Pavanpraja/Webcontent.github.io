@@ -1,0 +1,17 @@
+Hello! sir...
+My name is Pavan Prajapati,
+
+And I have created a Responsive frontend website
+in the project and website title is "web content".
+
+About My Project -
+      This website is made with the help of using
+ 3 languages ​​which are HTML, CSS, and JAVASCRIPT. 
+This website is divided into 5 sections, the first
+section is "Home", the second section is "About",
+the third section is "Languages", the fourth section
+is "Needs", and the last section is "Contact". And along 
+with all these things, this website is also responsive,
+which we can easily visit from computer devices as well
+as small devices like iPhone, iPhoneex, Airpad,
+surface duo or other devices.

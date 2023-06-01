@@ -1,0 +1,11 @@
+def has_single_cycle(array);
+hum_visited_elements=0
+current_idx=0
+
+while num_visited_elements<len(array);
+if num_visited_elements> and current_inx==0:
+return False
+num_visited_elements+=1
+current_idx=get_idx(current_idx,array)
+
+return current_idx==0

@@ -1,0 +1,12 @@
+const fs = require("fs")
+
+let fileName = './media/images/wallpaper1.png';
+let newFileName = './media/images/wallpaper2.png';
+
+fs.rename(fileName, newFileName, function(err) {
+    if (err) {
+      console.log(err);
+      return;
+    }
+      console.log("File renamed successfully");
+  });
